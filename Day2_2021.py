@@ -11,6 +11,7 @@ def depthOfTravel():
             d=d+x
         if li[0] == "up":
             d=d-x
+    f.close()
     return l,d, l*d
 
 
@@ -30,6 +31,7 @@ def depthOfTravel():
             d=d+x
         if li[0] == "up":
             d=d-x
+    f.close()
     return l,d, depth,  l*depth
 
 
